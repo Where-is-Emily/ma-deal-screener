@@ -2,6 +2,7 @@ import streamlit as st
 from financials import get_financials
 from memo import generate_memo
 
+st.markdown("<style>div[data-testid='stMetricLabel'] p {text-decoration: none;}</style>", unsafe_allow_html=True)
 st.title("M&A Deal Screener")
 st.caption("Enter two tickers to generate a deal rationale memo")
 
